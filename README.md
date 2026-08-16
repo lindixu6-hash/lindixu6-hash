@@ -21,6 +21,7 @@ A bilingual, production-readiness toolkit for AI agents: a 20-point scorecard, A
 - [Risk-tiered readiness profiles / 风险分级上线门禁](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/profiles/README.zh-CN.md)
 - [Executable prompt-injection reference eval / 可执行提示注入参考评测](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/adapters/reference-runtime/README.zh-CN.md)
 - [LangGraph.js runtime eval adapter / LangGraph.js Runtime 评测适配器](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/adapters/langgraph/README.zh-CN.md)
+- [Live LangGraph prompt-injection eval / 在线 LangGraph 提示注入评测](https://lindixu6-hash.github.io/awesome-agentic-engineering/zh/langgraph-eval/)
 - [Human-approved operations Agent Card / 人工审批运维 Agent](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/examples/operations-agent.card.json)
 
 ### [AI Content Workflow Skills](https://github.com/lindixu6-hash/ai-content-workflow-skills)
