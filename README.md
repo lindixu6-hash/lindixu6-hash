@@ -6,7 +6,7 @@ Full-stack AI Agent developer focused on production readiness, evaluation, conte
 
 ## Featured Projects / 代表项目
 
-### [Awesome Agentic Engineering](https://github.com/lindixu6-hash/awesome-agentic-engineering)
+### [Awesome Agentic Engineering: Production Readiness Gate](https://github.com/lindixu6-hash/awesome-agentic-engineering)
 
 A bilingual, production-readiness toolkit for AI agents: a 20-point scorecard, Agent Card and eval templates, incident regressions, MCP safety checks, a zero-dependency CLI, and a Node 24 GitHub Action.
 
