@@ -14,6 +14,7 @@ A bilingual, production-readiness toolkit for AI agents: a 20-point scorecard, A
 
 - [Try the bilingual scorecard / 在线中英文评分](https://lindixu6-hash.github.io/awesome-agentic-engineering/)
 - [Five-minute fail-closed setup / 五分钟接入门禁](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/docs/quickstart.zh-CN.md)
+- [LLM-readable project index / 机器可读项目索引](https://lindixu6-hash.github.io/awesome-agentic-engineering/llms.txt)
 - [Production readiness guide / 中英文生产就绪指南](https://lindixu6-hash.github.io/awesome-agentic-engineering/guide/)
 - [Chinese README / 中文文档](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/README.zh-CN.md)
 - [Production incidents / 生产事故案例](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/docs/production-incidents.zh-CN.md)
