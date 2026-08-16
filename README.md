@@ -16,6 +16,7 @@ A bilingual, production-readiness toolkit for AI agents: a 20-point scorecard, A
 - [Production readiness guide / 中英文生产就绪指南](https://lindixu6-hash.github.io/awesome-agentic-engineering/guide/)
 - [Chinese README / 中文文档](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/README.zh-CN.md)
 - [Production incidents / 生产事故案例](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/docs/production-incidents.zh-CN.md)
+- [Prompt injection eval fixtures / 提示注入评估数据集](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/evals/prompt-injection/README.md)
 
 ### [AI Content Workflow Skills](https://github.com/lindixu6-hash/ai-content-workflow-skills)
 
