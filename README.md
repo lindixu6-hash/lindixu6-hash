@@ -56,6 +56,16 @@ agents, maintained in English and Simplified Chinese.
   reproduction passing. This records public design-partner validation, not
   adoption or endorsement.
 
+### External positioning / 外部定位
+
+- [awesome-ai-security-tools #52](https://github.com/scadastrangelove/awesome-ai-security-tools/pull/52)
+  merged the project into its 1k+ Star Watchlist and explicitly classified it
+  as a broader, self-declared readiness gate rather than a security scanner or
+  enforcement control. The entry also records that the project is new, has
+  minimal adoption, and its listed consumer is author-operated. This is
+  Watchlist inclusion and external positioning review, not adoption,
+  certification, or endorsement.
+
 ## Open Source Focus / 开源方向
 
 - Agent evaluation and reliability / Agent 评估与可靠性
