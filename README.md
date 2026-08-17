@@ -1,40 +1,47 @@
-# lindixu6-hash
+# Production AI Agent Engineering
 
-Full-stack AI Agent developer focused on production readiness, evaluation, context engineering, and human-gated workflows.
+Full-stack AI Agent developer building executable evals, tool-security
+boundaries, context systems, and human-gated workflows.
 
-全栈 AI Agent 开发者，关注 Agent 生产就绪、评估、上下文工程与人工门控工作流。
+全栈 AI Agent 开发者，专注可执行评估、工具安全、上下文工程与人在回路工作流。
 
-## Featured Projects / 代表项目
+[![Awesome Agentic Engineering](https://img.shields.io/github/stars/lindixu6-hash/awesome-agentic-engineering?style=flat-square&label=awesome-agentic-engineering&logo=github)](https://github.com/lindixu6-hash/awesome-agentic-engineering)
+[![Release](https://img.shields.io/github/v/release/lindixu6-hash/awesome-agentic-engineering?style=flat-square)](https://github.com/lindixu6-hash/awesome-agentic-engineering/releases/latest)
+[![CI](https://github.com/lindixu6-hash/awesome-agentic-engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/lindixu6-hash/awesome-agentic-engineering/actions/workflows/ci.yml)
 
-### [Awesome Agentic Engineering: Production Readiness Gate](https://github.com/lindixu6-hash/awesome-agentic-engineering)
+## [Awesome Agentic Engineering](https://github.com/lindixu6-hash/awesome-agentic-engineering)
 
-A bilingual, production-readiness toolkit for AI agents: a 20-point scorecard, Agent Card and eval templates, incident regressions, MCP safety checks, a zero-dependency CLI, and a Node 24 GitHub Action.
+**Not another resource list:** an executable production-readiness gate for AI
+agents, maintained in English and Simplified Chinese.
 
-一套中英文 AI Agent 生产就绪工具：20 分评分卡、Agent Card 与评估模板、事故回归测试、MCP 安全检查、零依赖 CLI 和 Node 24 GitHub Action。
+**不是另一份资源清单：** 一套可执行、可审查、完整中英文同步的 AI Agent
+生产就绪门禁。
 
-- [Try the bilingual scorecard / 在线中英文评分](https://lindixu6-hash.github.io/awesome-agentic-engineering/)
-- [Five-minute fail-closed setup / 五分钟接入门禁](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/docs/quickstart.zh-CN.md)
-- [LLM-readable project index / 机器可读项目索引](https://lindixu6-hash.github.io/awesome-agentic-engineering/llms.txt)
-- [Production readiness guide / 中英文生产就绪指南](https://lindixu6-hash.github.io/awesome-agentic-engineering/guide/)
-- [Chinese README / 中文文档](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/README.zh-CN.md)
-- [Production incidents / 生产事故案例](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/docs/production-incidents.zh-CN.md)
-- [Prompt injection eval fixtures / 提示注入评估数据集](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/evals/prompt-injection/README.md)
-- [Machine-readable eval results / 机器可读评测结果](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/evals/prompt-injection/results/README.zh-CN.md)
-- [Risk-tiered readiness profiles / 风险分级上线门禁](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/profiles/README.zh-CN.md)
-- [Executable prompt-injection reference eval / 可执行提示注入参考评测](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/adapters/reference-runtime/README.zh-CN.md)
-- [LangGraph.js runtime eval adapter / LangGraph.js Runtime 评测适配器](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/adapters/langgraph/README.zh-CN.md)
-- [Live LangGraph prompt-injection eval / 在线 LangGraph 提示注入评测](https://lindixu6-hash.github.io/awesome-agentic-engineering/zh/langgraph-eval/)
-- [Human-approved operations Agent Card / 人工审批运维 Agent](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/examples/operations-agent.card.json)
+| Current evidence / 当前证据 | Verified result / 已验证结果 |
+| --- | --- |
+| Release | `v0.15.0` |
+| Deterministic tests | `145/145` |
+| Prompt-injection fixtures | `8/8` across reference, LangGraph.js, and OpenAI Agents SDK runtimes |
+| Provenance | Separate producer + SHA-pinned verifier, GitHub OIDC/Sigstore attestation |
+| Machine contracts | Agent Card, Eval Result, fixture, and readiness-profile JSON Schemas |
 
-### [AI Content Workflow Skills](https://github.com/lindixu6-hash/ai-content-workflow-skills)
+| Try / 使用 | Integrate / 接入 | Inspect evidence / 查看证据 | 中文 |
+| --- | --- | --- | --- |
+| [Web scorecard](https://lindixu6-hash.github.io/awesome-agentic-engineering/) | [Five-minute fail-closed setup](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/docs/quickstart.md) | [Attested eval provenance](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/docs/evidence-provenance.md) | [中文 README](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/README.zh-CN.md) |
+| [OpenAI Agents SDK eval](https://lindixu6-hash.github.io/awesome-agentic-engineering/openai-agents-eval/) | [Public JSON Schemas](https://lindixu6-hash.github.io/awesome-agentic-engineering/schema/agent-card.schema.json) | [Source-linked incidents](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/docs/production-incidents.md) | [中文 Schema 指南](https://github.com/lindixu6-hash/awesome-agentic-engineering/blob/main/schema/README.zh-CN.md) |
 
-A human-gated Content OS for Chinese social content: seed, sprout, grow, and trim. It is also the first real consumer of the Agent Production Readiness GitHub Action.
+### Adoption status / 采用状态
 
-一个面向中文内容创作的人机协作 Content OS：播种、发芽、成长、修剪，也是 Agent Production Readiness Action 的首个真实采用项目。
+- [AI Content Workflow Skills](https://github.com/lindixu6-hash/ai-content-workflow-skills)
+  is a same-maintainer consumer. Its score gate passes at 12/20, while its
+  `draft-only` profile and three launch blockers remain visibly failing.
+- [PaperSage #149](https://github.com/0verL1nk/PaperSage/pull/149) is an
+  independent Agent Card adoption PR under maintainer review. It is not counted
+  as adoption unless merged.
 
 ## Open Source Focus / 开源方向
 
-- AI agent evaluation and reliability / Agent 评估与可靠性
+- Agent evaluation and reliability / Agent 评估与可靠性
 - MCP and tool security / MCP 与工具安全
 - Human-in-the-loop workflow design / 人在回路的工作流设计
 - Context engineering and multi-agent systems / 上下文工程与多智能体系统
