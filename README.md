@@ -47,6 +47,15 @@ agents, maintained in English and Simplified Chinese.
   reproduced the evidence and CI passed. This is a merged upstream contribution,
   not adoption or endorsement of Awesome Agentic Engineering.
 
+### Independent validation / 独立验证
+
+- [EvalRepro #31](https://github.com/seva9523/EvalRepro/pull/31) merged a
+  pinned-revision, hash-only reproduction of the `v0.15.0` to `v0.16.0`
+  eight-file release contract. The external workflow detected exactly the three
+  intended generated-workflow changes, with its standard matrix and public-source
+  reproduction passing. This records public design-partner validation, not
+  adoption or endorsement.
+
 ## Open Source Focus / 开源方向
 
 - Agent evaluation and reliability / Agent 评估与可靠性
