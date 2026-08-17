@@ -40,6 +40,13 @@ agents, maintained in English and Simplified Chinese.
   independent Agent Card adoption PR under maintainer review. It is not counted
   as adoption unless merged.
 
+### Upstream contribution / 上游贡献
+
+- [mac-developer-bridge #4](https://github.com/alexanderradahl/mac-developer-bridge/pull/4):
+  a poisoned-repository adversarial harness merged after the upstream owner
+  reproduced the evidence and CI passed. This is a merged upstream contribution,
+  not adoption or endorsement of Awesome Agentic Engineering.
+
 ## Open Source Focus / 开源方向
 
 - Agent evaluation and reliability / Agent 评估与可靠性
