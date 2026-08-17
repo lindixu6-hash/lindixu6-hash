@@ -19,8 +19,8 @@ agents, maintained in English and Simplified Chinese.
 
 | Current evidence / 当前证据 | Verified result / 已验证结果 |
 | --- | --- |
-| Release | `v0.16.0` |
-| Deterministic tests | `145/145` |
+| Release | `v0.17.0` |
+| Deterministic tests | `147/147` |
 | Prompt-injection fixtures | `8/8` across reference, LangGraph.js, and OpenAI Agents SDK runtimes |
 | Provenance | Separate producer + SHA-pinned verifier, GitHub OIDC/Sigstore attestation |
 | Starter supply chain | Generated workflows pin `actions/checkout` to the reviewed v7.0.1 commit SHA |
