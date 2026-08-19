@@ -19,12 +19,13 @@ agents, maintained in English and Simplified Chinese.
 
 | Current evidence / 当前证据 | Verified result / 已验证结果 |
 | --- | --- |
-| Release | `v0.17.0` |
-| Deterministic tests | `147/147` |
+| Release | [`v0.18.2`](https://github.com/lindixu6-hash/awesome-agentic-engineering/releases/tag/v0.18.2) |
+| Deterministic tests | `151` total: `148` pass, `0` fail, `3` optional integrations skipped |
 | Prompt-injection fixtures | `8/8` across reference, LangGraph.js, and OpenAI Agents SDK runtimes |
-| Provenance | Separate producer + SHA-pinned verifier, GitHub OIDC/Sigstore attestation |
+| Provenance | Separate producer + SHA-pinned verifier, authority-policy digests, GitHub OIDC/Sigstore attestation |
 | Starter supply chain | Generated workflows pin `actions/checkout` to the reviewed v7.0.1 commit SHA |
-| Machine contracts | Agent Card, Eval Result, fixture, and readiness-profile JSON Schemas |
+| Governance | CFF 1.2 citation, CODEOWNERS, funding boundaries, protected `main` |
+| Distribution | Verified npm tarball contract; npm publication remains explicitly pending |
 
 | Try / 使用 | Integrate / 接入 | Inspect evidence / 查看证据 | 中文 |
 | --- | --- | --- | --- |
@@ -46,6 +47,22 @@ agents, maintained in English and Simplified Chinese.
   a poisoned-repository adversarial harness merged after the upstream owner
   reproduced the evidence and CI passed. This is a merged upstream contribution,
   not adoption or endorsement of Awesome Agentic Engineering.
+
+### Open-source maintenance / 开源维护
+
+- Invited as a Write collaborator for
+  [`tickernelz/opencode-mem`](https://github.com/tickernelz/opencode-mem), a
+  1.3k+ Star local-first memory plugin for coding agents.
+- Independently reviewed, verified, and merged
+  [#248](https://github.com/tickernelz/opencode-mem/pull/248),
+  [#256](https://github.com/tickernelz/opencode-mem/pull/256), and
+  [#260](https://github.com/tickernelz/opencode-mem/pull/260). Exact merge or
+  cumulative `main` commits passed six-platform package smoke on Ubuntu,
+  Windows, and macOS Intel/Apple Silicon.
+- Authored fixes [#257](https://github.com/tickernelz/opencode-mem/pull/257)
+  and [#258](https://github.com/tickernelz/opencode-mem/pull/258) are clean,
+  mergeable, and six-platform green, but remain explicitly pending independent
+  review. This is Collaborator evidence, not a Maintainer or ownership claim.
 
 ### Independent validation / 独立验证
 
