@@ -19,14 +19,14 @@ agents, maintained in English and Simplified Chinese.
 
 | Current evidence / 当前证据 | Verified result / 已验证结果 |
 | --- | --- |
-| Release | [`v0.19.0`](https://github.com/lindixu6-hash/awesome-agentic-engineering/releases/tag/v0.19.0) |
+| Release | [`v0.19.1`](https://github.com/lindixu6-hash/awesome-agentic-engineering/releases/tag/v0.19.1) |
 | Deterministic tests | `156` total: `153` pass, `0` fail, `3` optional integrations skipped; CrewAI pytest `4/4` |
 | Prompt-injection fixtures | `8/8` across reference, LangGraph.js, OpenAI Agents SDK, and CrewAI delegated-task runtimes |
-| CrewAI delegation | [Cold CI evidence](https://github.com/lindixu6-hash/awesome-agentic-engineering/actions/runs/32295156049) proves real Agent + Task.context + Crew.kickoff(), 8 cases x 5 evidence files, and zero network attempts; deterministic integration evidence, not a benchmark or safety certification |
+| CrewAI delegation | [Attested Release evidence](https://github.com/lindixu6-hash/awesome-agentic-engineering/actions/runs/32299060879) proves real Agent + Task.context + Crew.kickoff(), 8 cases x 5 evidence files, and zero network attempts; the deterministic bundle is a durable Release asset, not a benchmark or safety certification |
 | Provenance | Separate producer + SHA-pinned verifier, authority-policy digests, GitHub OIDC/Sigstore attestation |
 | Starter supply chain | Generated workflows pin `actions/checkout` to the reviewed v7.0.1 commit SHA |
 | Governance | CFF 1.2 citation, CODEOWNERS, funding boundaries, protected `main` |
-| Distribution | [Automated v0.19.0 release run](https://github.com/lindixu6-hash/awesome-agentic-engineering/actions/runs/32295344489) built and attested the tarball/SBOM with read-only access, then a separate write-scoped job created the Release, uploaded assets, and verified the public download; npm publication remains explicitly pending |
+| Distribution | [Automated v0.19.1 release run](https://github.com/lindixu6-hash/awesome-agentic-engineering/actions/runs/32299060879) checksums and attests the npm tarball, SBOM, and CrewAI evidence bundle, then a separate write-scoped job publishes and byte-verifies all four Release assets; npm publication remains explicitly pending |
 
 | Try / 使用 | Integrate / 接入 | Inspect evidence / 查看证据 | 中文 |
 | --- | --- | --- | --- |
