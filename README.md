@@ -19,13 +19,13 @@ agents, maintained in English and Simplified Chinese.
 
 | Current evidence / 当前证据 | Verified result / 已验证结果 |
 | --- | --- |
-| Release | [`v0.18.2`](https://github.com/lindixu6-hash/awesome-agentic-engineering/releases/tag/v0.18.2) |
-| Deterministic tests | `151` total: `148` pass, `0` fail, `3` optional integrations skipped |
+| Release | [`v0.18.5`](https://github.com/lindixu6-hash/awesome-agentic-engineering/releases/tag/v0.18.5) |
+| Deterministic tests | `152` total: `149` pass, `0` fail, `3` optional integrations skipped |
 | Prompt-injection fixtures | `8/8` across reference, LangGraph.js, and OpenAI Agents SDK runtimes |
 | Provenance | Separate producer + SHA-pinned verifier, authority-policy digests, GitHub OIDC/Sigstore attestation |
 | Starter supply chain | Generated workflows pin `actions/checkout` to the reviewed v7.0.1 commit SHA |
 | Governance | CFF 1.2 citation, CODEOWNERS, funding boundaries, protected `main` |
-| Distribution | Verified npm tarball contract; npm publication remains explicitly pending |
+| Distribution | [Tag-bound release run](https://github.com/lindixu6-hash/awesome-agentic-engineering/actions/runs/32288908824) produced a checksum-verified npm tarball, CycloneDX SBOM, and GitHub OIDC/Sigstore attestation; npm publication remains explicitly pending |
 
 | Try / 使用 | Integrate / 接入 | Inspect evidence / 查看证据 | 中文 |
 | --- | --- | --- | --- |
